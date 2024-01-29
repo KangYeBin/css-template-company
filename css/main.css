@@ -280,3 +280,61 @@ section.about .sub-container li a .text p.more::before {
   left: 0;
   border-radius: 50%;
 }
+
+/* sectin.innovation style */
+section.innovation {
+  margin-bottom: 150px;
+}
+
+section.innovation .img-box {
+  margin-top: 50px;
+  height: 540px;
+  background: url(../images/product_1.jpg) no-repeat center /cover;
+  position: relative;
+}
+
+section.innovation .img-box .inner {
+  background-color: #3a3c4e;
+  width: 80%;
+  color: white;
+
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+}
+
+section.innovation .img-box .inner h3 {
+  background-color: white;
+  color: #222;
+  font-size: 18px;
+  padding: 25px 45px;
+  box-sizing: border-box;
+}
+
+section.innovation .img-box .inner .bottom {
+  padding: 35px 85px;
+  box-sizing: border-box;
+}
+
+section.innovation .img-box .inner .bottom p {
+  /* background-color: yellow; */
+  float: left;
+  width: 70%;
+  line-height: 1.6;
+}
+
+section.innovation .img-box .inner .bottom a {
+  /* background-color: aqua; */
+  /* dispaly: block; -> float을 사용한다면 굳이 block으로 직접 바꿀 필요 없음 */
+  float: right;
+  padding: 7px 30px;
+  border-radius: 50px;
+  background-color: orange;
+}
+
+section.innovation .img-box .inner .bottom a:hover {
+  background-color: #f86010;
+}
+
