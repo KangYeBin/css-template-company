@@ -507,3 +507,50 @@ section.sns ul li .bottom .time i {
   margin-right: 5px;
   font-size: 0.9em;
 }
+
+/* footer style */
+footer {
+  border-top: 1px solid black;
+}
+
+footer .inner {
+  margin: 20px auto;
+  padding: 50px 100px;
+}
+
+footer .inner .ft-logo {
+  float: left;
+}
+
+footer .inner ul.address {
+  float: left;
+  margin-left: 50px;
+}
+
+footer .inner ul.address li:first-child {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+footer .inner ul.address li:last-child {
+  color: #999;
+}
+
+footer .inner ul.list {
+  float: right;
+  padding-left: 300px;
+}
+
+footer .inner ul.list li {
+  float: left;
+  margin-left: 100px;
+}
+
+footer .inner ul.list li:last-child {
+  font-weight: bold;
+}
+
+footer .inner ul li a:hover {
+  color: orange;
+  text-decoration: underline;
+}
