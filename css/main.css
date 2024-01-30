@@ -425,3 +425,85 @@ section.me ul.list ul.in li p::before {
   cursor: pointer;
 }
 
+/* section.sns style */
+section.sns {
+  margin-bottom: 60px;
+}
+
+section.sns ul {
+  margin: 50px auto;
+}
+
+section.sns ul li {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+
+section.sns ul li:last-child {
+  margin-right: 0;
+}
+
+section.sns ul li .img-box {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+section.sns ul li .img-box img {
+  width: 100%;
+}
+
+section.sns ul li .img-box::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: rgba(255, 165, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+section.sns ul li a:hover .img-box::before {
+  width: 100%;
+}
+
+section.sns ul li .img-box::after {
+  content: 'BLOG';
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  opacity: 0;
+}
+
+section.sns ul li a:hover .img-box::after {
+  opacity: 1;
+}
+
+section.sns ul li .bottom {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section.sns ul li .bottom .color {
+  color: orange;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+section.sns ul li .bottom .time {
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+section.sns ul li .bottom .time i {
+  margin-right: 5px;
+  font-size: 0.9em;
+}
